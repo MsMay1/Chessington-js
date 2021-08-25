@@ -11,4 +11,9 @@ export default class Piece {
         const currentSquare = board.findPiece(this);
         board.movePiece(currentSquare, newSquare);
     }
+
+    checkIfPieceAtSquare(board, expectedMoves){
+        throw new Error('This method must be implemented, and return if square is empty or not');
+    }
+
 }

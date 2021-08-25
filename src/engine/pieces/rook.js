@@ -14,9 +14,6 @@ export default class Rook extends Piece {
         let locationRow = location.row;
         let locationCol = location.col;
         let expectedMoves = []
-// increase row or coloumn
-// push square.at() to array
-// initial position iterate and change row in square.at and push
 
         for(let i=0; i<initialArray.length; i++){
             if(i != locationCol){
